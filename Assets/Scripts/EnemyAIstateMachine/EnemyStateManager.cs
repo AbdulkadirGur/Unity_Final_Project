@@ -16,10 +16,10 @@ public class EnemyStateManager : MonoBehaviour
     public EnemyDeathState deathState = new EnemyDeathState();
     public Animator anim;
     public float HP;
-   // public float damage;
+    // public float damage;
 
-    //public UnityEngine.UI.Slider slider;
-
+    public UnityEngine.UI.Slider slider;
+   
     Collider[] colliders;
 
     void Start()

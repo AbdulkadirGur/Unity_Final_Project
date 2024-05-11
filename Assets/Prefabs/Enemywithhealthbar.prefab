@@ -472,6 +472,10 @@ MonoBehaviour:
     m_Bits: 0
   anim: {fileID: 5541897045278753211}
   HP: 1
+<<<<<<< HEAD
+=======
+  slider: {fileID: 7765122469984552523}
+>>>>>>> dev
 --- !u!54 &1793101146195666944
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2761,6 +2765,13 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+=======
+    - target: {fileID: 9160873261744997048, guid: 3253c34eb0bc25d4eb37a46852311c6c, type: 3}
+      propertyPath: m_Value
+      value: 1
+      objectReference: {fileID: 0}
+>>>>>>> dev
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2771,3 +2782,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1164512992608174592, guid: 3253c34eb0bc25d4eb37a46852311c6c, type: 3}
   m_PrefabInstance: {fileID: 1504963203262186739}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+=======
+--- !u!114 &7765122469984552523 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9160873261744997048, guid: 3253c34eb0bc25d4eb37a46852311c6c, type: 3}
+  m_PrefabInstance: {fileID: 1504963203262186739}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> dev

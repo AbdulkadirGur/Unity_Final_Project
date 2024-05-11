@@ -26,6 +26,7 @@ public class EnemyHitStatemachine : EnemyBaseState
         if (collision.collider.CompareTag("bullet"))
         {
             enemy.HP--;
+            enemy.slider.value = enemy.HP*0.1f;
             enemy.transform.Translate(Vector3.back * 10 * Time.deltaTime);
         }
         
